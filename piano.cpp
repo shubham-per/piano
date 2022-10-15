@@ -18,4 +18,15 @@
  cout<<"PIANO "<<" If you are fed up with this crap then press 'q'.";
  while(dude!='q')
  {
+ jain(dude);
  
+dude=getch();
+ 
+if(dude!='q')
+ file1.put(dude);
+ 
+}
+ 
+file1.close();
+ 
+} 
